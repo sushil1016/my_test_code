@@ -1,0 +1,397 @@
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 109 - monitor_main
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/analyser_uri
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface_uri
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/cpe_ids
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 39 - Request succeeded 200
+'01 Sep 2017 18:08' - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 13 - DB initialized!!
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 19 - Sqlite version :[('3.14.2',)]
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 31 - Table creation failed table CPE_STATE already exists
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  1234
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>1234
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 1234
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  232323
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>232323
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 232323
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  9999
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>9999
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 9999
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8765
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>8765
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 8765
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8978
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>8978
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 8978
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 219 - Processing CPE_ID  67564
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 82 - value string=>67564
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 91 - Record exists
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 106 - fetching details for cpe 67564
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-01 17:58:34
+'01 Sep 2017 18:08' - MONITOR - cpe_status.py - 120 - osd= 
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-01 17:58:34 db_osd_list= []
+'01 Sep 2017 18:08' - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 15:27:25,946 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 15:27:25,946 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 15:27:25,946 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 15:27:25,947 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 15:27:25,947 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:27:25,947 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:25,988 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:25,988 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:27,991 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:27,992 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:27,992 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:29,994 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:29,996 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:29,996 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:31,998 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:31,999 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:31,999 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:34,002 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:34,003 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:34,003 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:36,006 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:36,007 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:36,007 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:38,009 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:38,011 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:38,011 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:40,013 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:40,015 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:40,015 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:42,017 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:42,019 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:42,019 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:44,021 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:44,023 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:44,023 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:46,025 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:46,027 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:46,027 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:27:48,029 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:27:48,031 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:27:48,031 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:29:50,086 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 15:29:50,087 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 15:29:50,087 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 15:29:50,087 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 15:29:50,087 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:29:50,087 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:32:02,954 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 15:32:02,954 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 15:32:02,955 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 15:32:02,955 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 15:32:02,955 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:32:02,955 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:36:20,093 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 15:36:20,093 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 15:36:20,093 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 15:36:20,094 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 15:36:20,094 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:36:20,094 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:38:15,541 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 15:38:15,541 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 15:38:15,541 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 15:38:15,542 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 15:38:15,542 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:38:15,542 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:38:56,529 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:38:56,530 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:38:58,532 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:38:58,533 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:38:58,534 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:00,536 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:00,537 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:00,537 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:02,539 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:02,541 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:02,541 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:04,543 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:04,545 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:04,545 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:06,547 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:06,549 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:06,549 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:08,551 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:08,552 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:08,552 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:10,555 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:10,556 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 15:39:10,556 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 15:39:12,558 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:12,577 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,577 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 15:39:12,585 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,585 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/analyser_uri
+2017-09-02 15:39:12,587 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,587 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface_uri
+2017-09-02 15:39:12,589 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,589 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface
+2017-09-02 15:39:12,591 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,592 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/cpe_ids
+2017-09-02 15:39:12,593 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,594 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 15:39:12,594 - MONITOR - cpe_status.py - 13 - DB initialized!!
+2017-09-02 15:39:12,820 - MONITOR - cpe_status.py - 19 - Sqlite version :[(u'3.8.2',)]
+2017-09-02 15:39:12,896 - MONITOR - cpe_status.py - 29 - Table created successfully
+2017-09-02 15:39:12,896 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  1234
+2017-09-02 15:39:12,896 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,896 - MONITOR - cpe_status.py - 82 - value string=>1234
+2017-09-02 15:39:12,897 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,897 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,897 - MONITOR - cpe_status.py - 41 - value str=>(1234, '', 0, 'Pending')
+2017-09-02 15:39:12,909 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 1234from last 100 days
+2017-09-02 15:39:12,909 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/1234/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,910 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,913 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,913 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,913 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,913 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=1234osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,913 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 1234
+2017-09-02 15:39:12,913 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,913 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 15:39:12,917 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  232323
+2017-09-02 15:39:12,917 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,917 - MONITOR - cpe_status.py - 82 - value string=>232323
+2017-09-02 15:39:12,918 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,918 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,918 - MONITOR - cpe_status.py - 41 - value str=>(232323, '', 0, 'Pending')
+2017-09-02 15:39:12,922 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 232323from last 100 days
+2017-09-02 15:39:12,922 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/232323/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,922 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,924 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,924 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,924 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,924 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=232323osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,924 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 232323
+2017-09-02 15:39:12,925 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,925 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 15:39:12,928 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  9999
+2017-09-02 15:39:12,929 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,929 - MONITOR - cpe_status.py - 82 - value string=>9999
+2017-09-02 15:39:12,929 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,929 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,929 - MONITOR - cpe_status.py - 41 - value str=>(9999, '', 0, 'Pending')
+2017-09-02 15:39:12,946 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 9999from last 100 days
+2017-09-02 15:39:12,946 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/9999/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,946 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,949 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,949 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,949 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,949 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=9999osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,950 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 9999
+2017-09-02 15:39:12,950 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,950 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 15:39:12,954 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8765
+2017-09-02 15:39:12,954 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,954 - MONITOR - cpe_status.py - 82 - value string=>8765
+2017-09-02 15:39:12,954 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,954 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,954 - MONITOR - cpe_status.py - 41 - value str=>(8765, '', 0, 'Pending')
+2017-09-02 15:39:12,957 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 8765from last 100 days
+2017-09-02 15:39:12,957 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/8765/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,957 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,960 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,960 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,960 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,960 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=8765osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,960 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 8765
+2017-09-02 15:39:12,960 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,960 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 15:39:12,963 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8978
+2017-09-02 15:39:12,963 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,964 - MONITOR - cpe_status.py - 82 - value string=>8978
+2017-09-02 15:39:12,964 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,964 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,964 - MONITOR - cpe_status.py - 41 - value str=>(8978, '', 0, 'Pending')
+2017-09-02 15:39:12,977 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 8978from last 100 days
+2017-09-02 15:39:12,977 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/8978/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,978 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,979 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,980 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,980 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,980 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=8978osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,980 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 8978
+2017-09-02 15:39:12,980 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,980 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 15:39:12,985 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  67564
+2017-09-02 15:39:12,985 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 15:39:12,985 - MONITOR - cpe_status.py - 82 - value string=>67564
+2017-09-02 15:39:12,986 - MONITOR - cpe_status.py - 88 - No row found...
+2017-09-02 15:39:12,986 - MONITOR - cpe_status.py - 36 - Inserting Data
+2017-09-02 15:39:12,986 - MONITOR - cpe_status.py - 41 - value str=>(67564, '', 0, 'Pending')
+2017-09-02 15:39:12,989 - MONITOR - ph_proxy.py - 55 - Fetching OSD errors from server, for cpe 67564from last 100 days
+2017-09-02 15:39:12,990 - MONITOR - ph_proxy.py - 62 - get osd uri==>ph.com/panorama-ui/nbi/netmap/v1.1/json/device/67564/osd?staleness=0&daysBack=1
+2017-09-02 15:39:12,990 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/osd
+2017-09-02 15:39:12,991 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 15:39:12,992 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009']
+2017-09-02 15:39:12,992 - MONITOR - ph_proxy.py - 68 - osd error list=[u'67671009', u'9999']
+2017-09-02 15:39:12,992 - MONITOR - analyser.py - 15 - Adding JOB to Analyser cpe_id=67564osd=[u'67671009', u'9999']
+2017-09-02 15:39:12,992 - MONITOR - cpe_status.py - 54 - Updating the state of CPE to Processed cpe_id= 67564
+2017-09-02 15:39:12,992 - MONITOR - cpe_status.py - 62 - query appender=> 2017-09-02 15:39:12,Processed,u'67671009', u'9999'
+2017-09-02 15:39:12,992 - MONITOR - cpe_status.py - 65 - Executing Update...
+2017-09-02 16:10:16,172 - MONITOR - monitor_main.py - 225 - ****** Monitor Init *******
+2017-09-02 16:10:16,173 - MONITOR - monitor_main.py - 109 - monitor_main
+2017-09-02 16:10:16,173 - MONITOR - monitor_main.py - 119 - rule_engine_port,3000
+
+2017-09-02 16:10:16,173 - MONITOR - monitor_main.py - 119 - rule_engine_uri,http://10.197.54.164
+
+2017-09-02 16:10:16,173 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 16:10:16,173 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:16,175 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:16,175 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:18,178 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:18,180 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:18,180 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:20,182 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:20,184 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:20,185 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:22,187 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:22,189 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:22,189 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:24,191 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:24,194 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:24,194 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:26,196 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:26,198 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:26,198 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:28,200 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:28,202 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:28,202 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:30,205 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:30,206 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:30,207 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:32,209 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:32,210 - MONITOR - http_request.py - 36 - Request not processed, server down or incorrect url
+2017-09-02 16:10:32,211 - MONITOR - rule_engine.py - 66 - Connection Refused, Trying Again!!!
+2017-09-02 16:10:34,213 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:34,234 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,234 - MONITOR - http_request.py - 44 - RESPONSE: {'status_code': 200, 'has_error': False, u'logdb_uri': u'http://10.197.54.164:3000/check_logs'}
+2017-09-02 16:10:34,234 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/logdb_uri
+2017-09-02 16:10:34,242 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,242 - MONITOR - http_request.py - 44 - RESPONSE: {'status_code': 200, 'has_error': False, u'logdb_uri': u'http://10.197.54.164:3000/check_logs'}
+2017-09-02 16:10:34,243 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/analyser_uri
+2017-09-02 16:10:34,245 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,246 - MONITOR - http_request.py - 44 - RESPONSE: {u'analyser_uri': u'atom.in.nds.com:5555/add/job', 'status_code': 200, 'has_error': False}
+2017-09-02 16:10:34,246 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface_uri
+2017-09-02 16:10:34,248 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,248 - MONITOR - http_request.py - 44 - RESPONSE: {'status_code': 200, 'has_error': False, u'interface_uri': u'http://10.197.54.164:3000'}
+2017-09-02 16:10:34,249 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/interface
+2017-09-02 16:10:34,251 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,251 - MONITOR - http_request.py - 44 - RESPONSE: {u'interface': u'PHProxy', 'status_code': 200, 'has_error': False}
+2017-09-02 16:10:34,251 - MONITOR - http_request.py - 30 - making a GET call to http://10.197.54.164:3000/get/cpe_ids
+2017-09-02 16:10:34,254 - MONITOR - http_request.py - 39 - Request succeeded 200
+2017-09-02 16:10:34,254 - MONITOR - http_request.py - 44 - RESPONSE: {'status_code': 200, 'has_error': False, u'cpe_ids': [1234, 232323, 9999, 8765, 8978, 67564]}
+2017-09-02 16:10:34,254 - MONITOR - http_request.py - 16 - ** HttpRequest is initialised with ** http://10.197.54.164:3000
+2017-09-02 16:10:34,254 - MONITOR - cpe_status.py - 13 - DB initialized!!
+2017-09-02 16:10:34,254 - MONITOR - cpe_status.py - 19 - Sqlite version :[(u'3.8.2',)]
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 31 - Table creation failed table CPE_STATE already exists
+2017-09-02 16:10:34,255 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  1234
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 82 - value string=>1234
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 106 - fetching details for cpe 1234
+2017-09-02 16:10:34,255 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,256 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,256 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,339 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 16:10:34,339 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  232323
+2017-09-02 16:10:34,339 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,340 - MONITOR - cpe_status.py - 82 - value string=>232323
+2017-09-02 16:10:34,340 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,340 - MONITOR - cpe_status.py - 106 - fetching details for cpe 232323
+2017-09-02 16:10:34,340 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,340 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,340 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,340 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 16:10:34,341 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  9999
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 82 - value string=>9999
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 106 - fetching details for cpe 9999
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,341 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,341 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,342 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 16:10:34,342 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8765
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 82 - value string=>8765
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 106 - fetching details for cpe 8765
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,342 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,342 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,343 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 16:10:34,343 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  8978
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 82 - value string=>8978
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 106 - fetching details for cpe 8978
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,343 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,344 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,344 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
+2017-09-02 16:10:34,344 - MONITOR - monitor_main.py - 219 - Processing CPE_ID  67564
+2017-09-02 16:10:34,344 - MONITOR - cpe_status.py - 76 - Checking if the record is already processed
+2017-09-02 16:10:34,344 - MONITOR - cpe_status.py - 82 - value string=>67564
+2017-09-02 16:10:34,344 - MONITOR - cpe_status.py - 91 - Record exists
+2017-09-02 16:10:34,344 - MONITOR - cpe_status.py - 106 - fetching details for cpe 67564
+2017-09-02 16:10:34,344 - MONITOR - cpe_status.py - 119 - processing_date= 2017-09-02 15:39:12
+2017-09-02 16:10:34,345 - MONITOR - cpe_status.py - 120 - osd= u'67671009', u'9999'
+2017-09-02 16:10:34,345 - MONITOR - monitor_main.py - 66 - status= True processed_date= 2017-09-02 15:39:12 db_osd_list= [u'67671009', u'9999']
+2017-09-02 16:10:34,345 - MONITOR - monitor_main.py - 48 - Time since last query to PH= 0Days
