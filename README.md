@@ -13,9 +13,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Linux (Ubuntu/ Redhat) 
-Python 3.0 or Above
-SQLite
+* Linux (Ubuntu/ Redhat) 
+* Python 3.0 or Above
+* SQLite
 
 
 ### Installing Dependencies
